@@ -1,0 +1,26 @@
+div p {
+    font-weight: bold;
+} 
+
+/*div + p {
+    color: #FF0000;
+}*/
+a:link {
+    color: #00FF00;
+}
+a:visited {
+    Color:#FF0000;
+}
+a:hover{
+    background-color: gray;
+    color:#FFFFFF;
+}
+p:first-child{
+    background-color:lightblue;
+}
+p:last-child{
+    background-color: lightgreen;
+}
+p:nth-child(3){
+    background-color: yellow;
+}

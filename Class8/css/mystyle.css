@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #cecece;
+ 
+}
+
+li a {
+   text-decoration: none;
+   width: 100px;
+   background-color: #cecece;
+   display: block;
+   padding: 15px;
+   color: #FFF;
+   font-family: veranda, sans-serif;
+}
+li a:hover {
+    background-color: green;
+    color: #000;
+}
+
+.contact {
+    order: 1;
+}
+
+li a img {width:45%}
+ 
